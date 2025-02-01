@@ -16,6 +16,26 @@ public class EntityData {
     }
 
 
+    public String getName() {
+        return name;
+    }
+
+
+    public String getLastName() {
+        return lastName;
+    }
+
+
+    public int getNumberDocId() {
+        return numberDocId;
+    }
+
+
+    public int getBirthDate() {
+        return birthDate;
+    }
+
+
     
     
 
