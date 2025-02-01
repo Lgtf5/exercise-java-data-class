@@ -5,15 +5,15 @@ public class EntityData {
     public String name;
     public String lastName;
     public int numberDocId;
-    public int birthDate;
+    public int birthYear;
 
 
-    public EntityData(String name, String lastName, int numberDocId, int birthDate) {
-        
+    public EntityData(String name, String lastName, int numberDocId, int birthYear) {
+
         this.name = name;
         this.lastName = lastName;
         this.numberDocId = numberDocId;
-        this.birthDate = birthDate;
+        this.birthYear = birthYear;
     }
 
 
@@ -41,11 +41,11 @@ public class EntityData {
     }
 
 
-    public int getBirthDate() {
-        return birthDate;
+    public int getBirthYear() {
+        return birthYear;
     }
-    public void setBirthDate(int birthDate) {
-        this.birthDate = birthDate;
+    public void setBirthYear(int birthYear) {
+        this.birthYear = birthYear;
     }
 
 
